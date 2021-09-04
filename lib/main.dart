@@ -54,7 +54,7 @@ class _MyHomePageState extends State<MyHomePage> {
               child: ElevatedButton(
                 onPressed:() => Navigator.pushReplacement(context, MaterialPageRoute(builder: (BuildContext context) => getStarted())),
                 style: ElevatedButton.styleFrom(
-                  primary: Colors.lightBlue,
+                  primary: Color(0xFF138D75),
                   padding: EdgeInsets.symmetric(horizontal: 100,vertical: 20),
                   shape: RoundedRectangleBorder( borderRadius: BorderRadius.circular(12))
                 ),
